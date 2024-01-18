@@ -1,12 +1,9 @@
 
-import 'dart:convert';
 
-import 'package:api_practice/model.dart';
-import 'package:api_practice/pages/showdata.dart';
-import 'package:api_practice/service/service_controller.dart';
+import 'package:api_practice/part-01/pages/showdata.dart';
+import 'package:api_practice/part-01/service/service_controller.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:http/http.dart' as http;
-import 'package:http/http.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

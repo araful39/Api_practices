@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
 
-class Color{
+class AppColor{
   static const privetColor=Colors.grey;
 }

@@ -1,14 +1,14 @@
 import 'dart:convert';
 import 'dart:html';
 
-import 'package:api_practice/apiList.dart';
-import 'package:api_practice/model.dart';
+import 'package:api_practice/part-01/apiList.dart';
+import 'package:api_practice/part-01/model.dart';
 import 'package:http/http.dart' as http;
 import 'package:http/http.dart';
 
 class ServiceController {
   Future<List<JuelaryModel>> getEcommerceApi() async {
-    List<JuelaryModel> apiList = [];
+    List<JuelaryModel> apiList=[];
 
     String url = "https://fakestoreapi.com/products/category/jewelery";
     Response response = await http.get(Uri.parse(url));

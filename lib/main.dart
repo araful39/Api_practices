@@ -1,4 +1,5 @@
-import 'package:api_practice/pages/home_page.dart';
+
+import 'package:api_practice/part-02/view/home_page.dart';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomePage(),
+      home: MyHomePage(title: 'Demo',),
     );
   }
 }

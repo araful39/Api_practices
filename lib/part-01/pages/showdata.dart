@@ -1,6 +1,7 @@
-import 'package:api_practice/color/color.dart';
 
-import 'package:api_practice/model.dart';
+
+import 'package:api_practice/part-01/color/color.dart';
+import 'package:api_practice/part-01/model.dart';
 import 'package:flutter/cupertino.dart';
 
 class Showdata extends StatelessWidget {
@@ -14,7 +15,7 @@ class Showdata extends StatelessWidget {
       child: Container(
         height: 200,
         width: 50,
-        color: Color.privetColor,
+        color: AppColor.privetColor,
         child: Column(
           children: [
 
