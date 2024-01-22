@@ -89,12 +89,12 @@ class _MyHomePageState extends State<MyHomePage> {
                                   errorWidget: (context, url, error) => Center(child: Text("Not availeble")),
                                 ),
 
-                                Row(
+                                Column(
                                   mainAxisAlignment:
                                   MainAxisAlignment.spaceAround,
                                   children: [
                                     Text(
-                                        "Udate : ${snapshot.data![index].updatedAt.toString()}"),
+                                        "Udate: ${snapshot.data![index].updatedAt.toString()}"),
                                     Text(
                                         "Creat Data ${snapshot.data![index].creationAt.toString()}")
                                   ],
